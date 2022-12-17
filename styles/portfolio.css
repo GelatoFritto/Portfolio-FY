@@ -24,6 +24,37 @@ h6 {
   font-family: var(--heading-font-family);
 }
 
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px;
+  line-height: 42px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+opacity: 70%;
+transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color:  var(--primary-color);
+}
+
 .hero {
   background-color: var(--background-color);
   text-align: center;
